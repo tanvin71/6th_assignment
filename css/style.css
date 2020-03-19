@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900|Ubuntu:400,500,700&display=swap');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+/**** header part starts here ****/
+.menu {
+    text-transform :uppercase;
+    color: #626262!important;
+    font-family: 'Playfair Display', serif; 
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 40px!important;
+
+}
+.img img {
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding-right: 0;
+}
+.navbar {
+    padding: 0;
+    padding: 30px 0;
+}
+/**** header part ends here ****/
+/**** photodiary part starts here ****/
+.photodiary {
+    width: 90%;
+    margin: auto;
+    
+}
+.photodiary h4 {
+    color: #b4ad9e;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+.photodiary h2 {
+    color: #626262;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+.photodiary p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px; 
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+/**** photodiary part ends here ****/
+/**** lifestyle part starts here ****/
+.items img {
+    width: 100%;
+}
+/**** lifestyle part ends here ****/
+/**** newsletter part starts here ****/
+.newsletter {
+    background: #f0f0f0;
+    margin-bottom: 100px;
+}
+.raw {
+    min-height: 300px;
+}
+h3 {
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-bottom: 80px;
+    font-weight: 400;
+}
+input[type=email] {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    margin-bottom: 3px;
+}
+input::placeholder {
+    color: #626262;
+    font-size: 14px;
+    font-family:'Playfair Display', serif;
+}
+.call {
+    position: relative;
+} 
+.icon {
+    position: absolute;
+    top: 77%;
+    left: 85%;
+}
+/**** newsletter part ends here ****/
+/**** loadmore part starts here ****/
+.load {
+    min-height: 200px;
+    width: 90%;
+    margin: auto;
+}
+.col-12 {
+    text-align: center;
+    padding: 0;
+}
+.load a {
+    color: #626262!important;
+    text-decoration: none!important;
+    border: 1px solid ;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-family:'Playfair Display', serif;
+    background: transparent;
+}
+/**** loadmore part ends here ****/
+/**** footer part starts here ****/
+footer {
+    background: #f0f0f0;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+
+}
+ul li a {
+    text-decoration: none!important;
+    color:#000000!important;
+    font-size: 16px;
+    font-family:'Playfair Display', serif;
+}
+.full {
+    min-height: 100px;
+    align-items: center!important;
+}
+.full-1 {
+    
+} 
+/**** footer part ends here ****/
